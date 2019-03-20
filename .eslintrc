@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "es6": false,
+    "browser": true
+  },
+  "globals": {
+    "__DEVELOPMENT__": false
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["warn", "single"],
+    "no-console": "error",
+    "arrow-parens": 0,
+    "linebreak-style": ["error", "windows"]
+  }
+}
